@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: aquamarine;
+  /* height: 150px; */
+  padding: 20px;
+  color: white;
+}
+
+.App-header span {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Todo-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.todo-input {
+  width: 100%;
+  margin: 10px 0;
+  height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid mediumaquamarine;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.todo-item-left {
+  display: flex;
+}
+
+.todo-item-label {
+  margin-left: 10px;
+}
+
+.remove-item {
+  color: red;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+.active {
+  background: aquamarine;
+  color: white;
+}
+
+.extra-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid aquamarine;
+  padding: 10px 0;
+}
+
+.extra-container button {
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  min-width: 60px;
+  cursor: pointer;
+}
+
+.extra-container button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.clear-completed-btn {
+  background: red;
+  color: white;
+}
